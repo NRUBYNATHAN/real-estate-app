@@ -1,0 +1,29 @@
+.houselist{
+    margin-bottom: 5rem; 
+}
+.text{
+    color:rgb(172, 171, 171);
+    margin-top: 12rem; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+text-align: center; 
+}
+.houselist_contain{
+    margin-left: auto;
+    margin-right: auto;
+}
+.houselist_map{
+    display: grid ;
+gap: 1rem; 
+}
+@media (min-width: 768px) { 
+    .houselist_map{
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    }
+   }
+  @media (min-width: 1024px) { 
+    .houselist_map{
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  gap: 3.5rem; 
+    }
+   }
